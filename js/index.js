@@ -1,6 +1,6 @@
 var formdata = new FormData();
-formdata.append("type", "Vertical Strip");
-formdata.append("tags", "tech");
+formdata.append("type", "Horizontal Strip");
+formdata.append("tags", "");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);
