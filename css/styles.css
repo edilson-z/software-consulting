@@ -3,6 +3,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 1.4vw;
@@ -145,7 +146,8 @@ body {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.form input,textarea {
+.form input,
+textarea {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
@@ -179,4 +181,36 @@ body {
     color: #FFFFFF;
     background-color: #000;
     height: 70px;
+}
+
+@media (min-width: 768px) {
+    .small-devices {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    .large-devices {
+        display: none;
+    }
+    .about-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content>p {
+        padding: 0 50px;
+    }
+    .about-img>img {
+        width: 250px;
+    }
 }
