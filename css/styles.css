@@ -181,6 +181,7 @@ textarea {
     color: #FFFFFF;
     background-color: #000;
     height: 70px;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -190,7 +191,7 @@ textarea {
 }
 @media (max-width: 768px) {
     body {
-        font-size: 18px;
+        font-size: 16px;
     }
     .large-devices {
         display: none;
@@ -205,12 +206,13 @@ textarea {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .about-content>p {
-        padding: 0 50px;
+        padding: 0 55px;
     }
     .about-img>img {
-        width: 250px;
+        width: 300px;
     }
 }
