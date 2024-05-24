@@ -124,7 +124,7 @@ body {
 .advert-square-section {
     display: flex;
     justify-content: space-evenly;
-    max-width: 80vw;
+    gap: 10px;
     margin: 0 auto;
     padding-top: 25px;
     max-height: 200px;
@@ -248,4 +248,14 @@ textarea {
     .about-img>img {
         width: 300px;
     }
+
+    .image-container {
+        width: 95vw;
+        max-width: 100vw;
+    }
+
+    .advertIMG2, .advertIMG3, .advertIMG4 {
+        max-height: 100px;
+    }
+
 }
